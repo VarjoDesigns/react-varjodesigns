@@ -6,6 +6,7 @@ import Whatido from './sections/Whatido';
 import Footer from './layout/Footer';
 import Project from './sections/Project';
 import Customers from './sections/Customers';
+import Socials from './sections/Socials';
 
 function App() {
   return (
@@ -30,6 +31,10 @@ function App() {
 
       <header className="App-header">
         <Customers/>
+      </header>
+      
+      <header className="App-header">
+        <Socials />
       </header>
 
     <Footer/>
