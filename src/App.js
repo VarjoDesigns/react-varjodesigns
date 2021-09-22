@@ -7,6 +7,7 @@ import Footer from './layout/Footer';
 import Project from './sections/Project';
 import Customers from './sections/Customers';
 import Socials from './sections/Socials';
+import Contact from './sections/Contact';
 
 function App() {
   return (
@@ -34,7 +35,11 @@ function App() {
       </header>
       
       <header className="App-header">
-        <Socials />
+        <Socials/>
+      </header>
+
+      <header className="App-header">
+        <Contact/>
       </header>
 
     <Footer/>
