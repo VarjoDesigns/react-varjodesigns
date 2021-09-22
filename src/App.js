@@ -5,6 +5,7 @@ import Jumbotron from './sections/Jumbotron';
 import Whatido from './sections/Whatido';
 import Footer from './layout/Footer';
 import Project from './sections/Project';
+import Customers from './sections/Customers';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
 
       <header className="App-header">
         <History/>
+      </header>
+
+      <header className="App-header">
+        <Customers/>
       </header>
 
     <Footer/>

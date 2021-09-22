@@ -1,35 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ListCustomers from '../components/ListCustomers';
 
 export default function Whatido () {
 
-    // These could be inserted from a separate array and rendered in this component?
+    // These could be inserted as an array and rendered in another component?
     // Would be more future proof as one could add and remove entries through backend api and not have to update the frontend
+
+    const [customer, setCustomer] = useState([
+        {
+            name: 'Don Joewon Song',
+            description: 'Logos, brand identity, liveries, animations...',
+            image: '',
+            testimonial: '',
+        },
+        {
+            name: 'Wreckfest',
+            description: 'liveries',
+            image: '',
+            testimonial: '',
+        },
+        {
+            name: 'FaDa Racing',
+            description: 'Logos, brand identity, Cayman GT4 livery',
+            image: '',
+            testimonial: '',
+        },
+        {
+            name: 'RWB Nordics',
+            description: 'Web design',
+            image: '',
+            testimonial: '',
+        },
+    ]
+    )
 
     return(
         <div>
-            <h4>
-                What i focus on
-            </h4>
-
-            <h5>Don Joewon Song</h5>
-            <p>
-                Logos, brand identity, liveries, templates...
-            </p>
-
-            <h5>Wreckfest</h5>
-            <p>
-                Liveries
-            </p>
-
-            <h5>FaDa Racing</h5>
-            <p>
-                Logos, brand identity, Cayman GT4 livery
-            </p>
-
-            <h5>RWB Nordics</h5>
-            <p>
-                Web design
-            </p>
+            <ListCustomers customer = { customer } />
         </div>
     )
 }
