@@ -1,15 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Navi from './layout/Navi';
+import History from './sections/History';
+import Jumbotron from './sections/Jumbotron';
+import Whatido from './sections/Whatido';
+import Footer from './layout/Footer';
+import Project from './sections/Project';
 
 function App() {
   return (
     <div className="App">
+      <Navi/>
+      
       <header className="App-header">
-        <h2>React portfolio application</h2>
-        <p>
-          Varjo Designs website in single page form. Coded with React and published on github. 
-        </p>
+        <Project/>
       </header>
+
+      <header className="App-header">
+        <Jumbotron/>
+      </header>
+
+      <header className="App-header">
+        <Whatido/>
+      </header>
+
+      <header className="App-header">
+        <History/>
+      </header>
+
+    <Footer/>
     </div>
   );
 }
