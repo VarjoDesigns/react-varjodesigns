@@ -23,3 +23,5 @@ Contact form that will be sent to backend in future versions & displays the curr
 **Application backend**
 
 https://github.com/VarjoDesigns/NodeVD
+
+Please note that backend has not been integrated yet. I'll need to add fetch for backend sourced listing
