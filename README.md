@@ -18,3 +18,10 @@ This will be a single page version of my website, using React and Node.js. I'm m
 Listing items using arrays (supports backend integration at later date)
 
 Contact form that will be sent to backend in future versions & displays the current submit using events
+
+
+**Application backend**
+
+https://github.com/VarjoDesigns/NodeVD
+
+Please note that backend has not been integrated yet. I'll need to add fetch for backend sourced listing
