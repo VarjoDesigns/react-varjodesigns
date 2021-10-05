@@ -9,9 +9,9 @@ export default function Navi () {
     return(
         <div>
             <h2>Varjo Designs</h2>
-            <Link to='/home'>Home</Link>
-            <Link to='/about'>About</Link>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/home'>Home</Link> <br />
+            <Link to='/about'>About</Link> <br />
+            <Link to='/contact'>Contact</Link> <br />
         </div>
     )
 }

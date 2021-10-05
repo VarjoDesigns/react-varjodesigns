@@ -24,6 +24,7 @@ function App() {
         <Route path='/home' component= { Home } />
         <Route exact path='/' component= { Home } />
       </Switch>
+      <Footer/>
     </div>
   </BrowserRouter>
   );
